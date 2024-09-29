@@ -8,7 +8,21 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <main>HELLO</main>
+    <main>
+      <form class="form">
+        <input
+          type="text"
+          name="search"
+          id="search-field"
+          placeholder="Search images..."
+        />
+        <button type="submit">Search</button>
+      </form>
+      <div class="loader hidden"></div>
+      <ul class="gallery">
+        <li></li>
+      </ul>
+    </main>
 
     <script type="module" src="./main.js"></script>
   </body>
